@@ -1,0 +1,15 @@
+# Product Changelog
+
+Version 1.0.0 - Initial release
+- Added login and signup
+- Basic dashboard view
+- Export report as PDF
+
+Version 1.1.0 - Performance update
+- Improved search speed
+- Added CSV export option
+- Fixed login bug
+
+Version 1.2.0 - Vision features
+- Added support for image uploads
+- Integrated OCR text recognition

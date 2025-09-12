@@ -1,0 +1,17 @@
+faiss-cpu
+rank-bm25
+numpy
+pandas
+pydantic
+python-dotenv
+PyYAML
+pdfplumber
+pytesseract
+Pillow
+pdf2image
+camelot-py[cv]
+python-docx
+sentence-transformers
+transformers
+torch
+streamlit
