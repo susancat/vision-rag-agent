@@ -1,0 +1,20 @@
+embed:
+  text_model: "sentence-transformers/all-MiniLM-L6-v2"  # 384 維
+  image_model: "clip-ViT-B-32"                          # 512 維（SentenceTransformers 內建 CLIP）
+  dim_text: 384
+  dim_image: 512
+
+ocr:
+  enabled: false        # 如需 OCR 再改 true 並安裝 tesseract
+  lang: "eng"
+
+retrieval:
+  top_k_text: 5
+  top_k_image: 4
+  fuse: "rrf"           # rrf / weighted
+
+storage:
+  vector_dir: "data/embeddings"
+
+ui:
+  show_traces: true
