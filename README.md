@@ -48,7 +48,7 @@ streamlit run app/app.py
 python scripts/fetch_market_data.py --top 10 --vs usd --years 8
 python scripts/fetch_papers.py
 python api/ingest.py --docs data/docs --rebuild
-
+```
 ---
 
 ## 🌱 Why I Built This
